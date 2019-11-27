@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="template">
+ <name>pandatemplate</name>
+ <version>1.0.0</version>
+ <creationDate>23.11.2019</creationDate>
+ <author>Viktoria Nazarova</author>
+ <authorMail>vikanaz98@gmail.com</authorMail>
+ <authorUrl>https://https://github.com/VikaNazarova</authorUrl>
+ <copyright>Copyright (C) Viktoria Nazarova</copyright>
+ <license>Free</license>
+ <description>TPL_PANDATEMPLATE_DESCRIPTION</description>
+ <files>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>js</folder>
+		<filename>index.php</filename>		
+		<filename>templateDetails.xml</filename>
+	</files>
+	<positions>
+		<position>menu</position>
+		<position>top</position>
+		<position>middle</position>
+		<position>bottom</position>
+		<position>footer</position>
+	</positions>
+</extension>
