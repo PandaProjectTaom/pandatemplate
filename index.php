@@ -6,10 +6,11 @@ defined('_JEXEC') or die;
 <head>
 	<jdoc:include type="head"/>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=yes"/>
 	<link rel="preload" href="style.css" as="style">
 	<link rel="preload" href="script.js" as="script">
 </head>
-<body>
+<body class="<?php echo $active->alias; ?>">
 	<header class="menu">
 		<jdoc:include type="modules" name="menu" style="xhtml" />
 	</header>
