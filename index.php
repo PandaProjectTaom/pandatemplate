@@ -10,7 +10,7 @@ defined('_JEXEC') or die;
 	<link href="css/style.css" rel="stylesheet" >
 	<script src="js/script.js"></script>
 </head>
-<body class="<?php echo $active->alias; ?>">
+<body>
 	<header class="menu">
 		<jdoc:include type="modules" name="menu" style="xhtml" />
 	</header>
