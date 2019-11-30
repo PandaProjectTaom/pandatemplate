@@ -7,8 +7,8 @@ defined('_JEXEC') or die;
 	<jdoc:include type="head"/>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=yes"/>
-	<link rel="preload" href="style.css" as="style">
-	<link rel="preload" href="script.js" as="script">
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
 </head>
 <body class="<?php echo $active->alias; ?>">
 	<header class="menu">
