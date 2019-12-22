@@ -22,6 +22,7 @@ $doc->addScript($this->baseurl . '/templates/' . $this->template . '/js/script.j
 		</div>
 		<div class="middle">
 			<jdoc:include type="modules" name="middle" style="xhtml" />
+			<jdoc:include type="component" />
 		</div>
 		<div class="bottom">
 			<jdoc:include type="modules" name="bottom" style="xhtml" />
