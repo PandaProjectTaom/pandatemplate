@@ -31,19 +31,19 @@ main {
 }
 
 
-/* это относится к блогу */
+/* this refers to div tag */
 .miscnews 
 {
 	display:flex;
 	flex-flow:row wrap;
 }
 
-/* это относится к первому div только */
+/*this refers to the first div tag only */
 .miscnews > div:first-child 
 {
 	width:100%;
 	}
-/* это относится ко всем остальным div */
+/* this refers to the rest div tag */
 .miscnews > div 
 {
 	
