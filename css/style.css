@@ -14,6 +14,8 @@ img {
 main {
     flex-direction: column;
 }
+
+
 /* bootstrap clone for now */
 .container {
 	display: flex;
@@ -22,41 +24,58 @@ main {
 	padding-left: 15px;
 	padding-right: 15px;
 	flex-wrap:wrap;
-	
 }
 
 
-.inline-block {
+.inline-block 
+{
 	display:inline-block;
 }
 
 
-
-.miscnews {
+/* this refers to div tag */
+.miscnews 
+{
 	display:flex;
 	flex-flow:row wrap;
 }
 
-
-	.miscnews > div:first-child {
+/*this refers to the first div tag only */
+.miscnews > div:first-child 
+{
 	width:100%;
-	
 	}
-	.miscnews > div {
-	
+/* this refers to the rest div tag */
+.miscnews > div 
+{
 	width: 30%;
 	margin: 15px;
-	}
+}
 
 .item2 {
-	
-	
-	
 	flex-direction: row;
 }
 
+/*.menu {
+	display: flex;
+	width: 100%;
+	flex-flow: row nowrap;
+	
+}
+/*
+.menu > div:first-child {
+		display: flex;
+		width: 30%;
+		flex-flow: row wrap;
+	} 
 
-
+.menu > div {
+		display: flex;
+		width: 30%;
+		flex-flow: column nowrap;
+		flex-grow:1;
+}
+	*/
 @media (min-width: 768px) {
   .container {
     width: 750px;
