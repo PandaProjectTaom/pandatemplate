@@ -1,0 +1,77 @@
+/* basic layout */
+body {
+	padding: 0; 
+	margin: 0;
+	font-family: sans-serif;
+	overflow-x: hidden;
+}
+a {
+	text-decoration: none;
+}
+img {
+	max-width: 100%;
+}
+main {
+    flex-direction: column;
+}
+/* bootstrap clone for now */
+.container {
+	display: flex;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	flex-wrap:wrap;
+}
+
+
+.inline-block 
+{
+	display:inline-block;
+}
+
+
+/* this refers to div tag */
+.miscnews 
+{
+	display:flex;
+	flex-flow:row wrap;
+}
+
+/*this refers to the first div tag only */
+.miscnews > div:first-child 
+{
+	width:100%;
+	}
+/* this refers to the rest div tag */
+.miscnews > div 
+{
+	
+	width: 30%;
+	margin: 15px;
+	}
+
+.item2 {
+	
+	
+	
+	flex-direction: row;
+}
+
+
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
