@@ -12,7 +12,7 @@ img {
 	max-width: 100%;
 }
 main {
-	flex-direction: column;
+    flex-direction: column;
 }
 /* bootstrap clone for now */
 .container {
@@ -21,7 +21,42 @@ main {
 	margin-left: auto;
 	padding-left: 15px;
 	padding-right: 15px;
+	flex-wrap:wrap;
+	
 }
+
+
+.inline-block {
+	display:inline-block;
+}
+
+
+
+.miscnews {
+	display:flex;
+	flex-flow:row wrap;
+}
+
+
+	.miscnews > div:first-child {
+	width:100%;
+	
+	}
+	.miscnews > div {
+	
+	width: 30%;
+	margin: 15px;
+	}
+
+.item2 {
+	
+	
+	
+	flex-direction: row;
+}
+
+
+
 @media (min-width: 768px) {
   .container {
     width: 750px;
