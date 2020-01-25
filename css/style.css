@@ -32,6 +32,7 @@ main {
 	display:inline-block;
 }
 
+/*-blog-*/
 
 /* this refers to div tag */
 .miscnews 
@@ -56,26 +57,40 @@ main {
 	flex-direction: row;
 }
 
-/*.menu {
+/*-end of blog-*/
+
+/*-main menu-*/
+
+.menu {
 	display: flex;
 	width: 100%;
 	flex-flow: row nowrap;
-	
+	align-items:stretch;
+
 }
-/*
-.menu > div:first-child {
+
+/*.menu > div:first-child {
 		display: flex;
 		width: 30%;
 		flex-flow: row wrap;
-	} 
+	} */
 
 .menu > div {
-		display: flex;
-		width: 30%;
-		flex-flow: column nowrap;
-		flex-grow:1;
+	display: flex;
+	width: 30%;
+	flex-wrap: nowrap;
+	flex-grow:1;
+	justify-content:left;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top:5px;
+	margin-bottom:5px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
-	*/
+	
+/*-end of main menu-*/
+
 @media (min-width: 768px) {
   .container {
     width: 750px;
