@@ -13,7 +13,7 @@ $doc->addScript($this->baseurl . '/templates/' . $this->template . '/js/script.j
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=yes"/>
 </head>
 <body>
-	<header class="menu">
+	<header>
 		<jdoc:include type="modules" name="menu" style="xhtml" />
 	</header>
 	<main class="container">
