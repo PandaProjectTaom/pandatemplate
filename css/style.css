@@ -42,9 +42,10 @@ main {
 }
 
 /*this refers to the first div tag only */
-.miscnews > div:first-child 
-{
-	width:100%;
+	.miscnews > div:first-child {
+		width: 100%;
+		display: flex;
+		flex-flow: row nowrap;
 	}
 /* this refers to the rest div tag */
 .miscnews > div 
